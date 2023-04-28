@@ -1,0 +1,53 @@
+.cart {
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartitem {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 50px;
+    gap: 20px;
+    background-color: lightgrey;
+
+}
+
+.cartitem img {
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    object-fit: cover;
+
+}
+
+.cartitem.description {
+    width: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.counthandler input {
+    width: 40px;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.checkout button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+}
